@@ -7,27 +7,42 @@ Tutorial Video Link https://www.youtube.com/watch?v=HVsySz-h9r4
 
 ## Steps to use git remotely
 1. Clone a repo
-  * git clone repoURL whereToClone(default=current directory)
+   * git clone repoURL whereToClone(default=current directory)
   
 2. Add files to staging area
-  * git add filename      (single file)
-  * git add -A            (all files)
+   * git add filename      (single file)
+   * git add -A            (all files)
   
 3. Commit
-  *  git commit -m "Commit Message"
+   *  git commit -m "Commit Message"
  
 4. Pull any changes made to the repository (i.e. get the latest version of the repo)
-  *  git pull origin master
+   *  git pull origin master
   
 5. Push changes from staging area to master branch (or currently active branch)
-  *  git push origin master 
+   *  git push origin master 
 
 ## Using branches 
-  Creating a branch
+1.  Creating a branch
    *  git branch BranchName
    
-  Use a particular branch
+2.  Use a particular branch
    *  git checkout BranchName
+  
+3.  Push branch to remote repository
+   *  git push -u origin BranchName
+
+4. Then checkout to master. Remember to pull current version of master before pushing your code
+After checkout master and pull master.
+
+5.  Merge branch to master
+   * git merge BranchName
+
+6. Finally push changes to master.
+
+7. Delete the unnesseary branch
+   * git branch -d BranchName  (removes it locally not from remote repo)
+   * git push origin --delete BranchName (removes branch from remote repo)
    
 ## Git commands for quick reference
 Remove files from staging area
@@ -36,7 +51,10 @@ Remove files from staging area
  
 To list all branches
   * git branch -a
- 
+
+To list branches that have been merged
+  * git branch --merged
+  
 To see changes made that are not yet commited
   * git diff
   
