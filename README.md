@@ -46,26 +46,26 @@ After checkout master and pull master.
    
 ## Git commands for quick reference
 Remove files from staging area
-    * git reset filename   (single file)
-    * git reset
+  * git reset filename   (single file)
+  * git reset
  
 To list all branches
-    * git branch -a
+  * git branch -a
 
 To list branches that have been merged
-    * git branch --merged
+  * git branch --merged
   
 To see changes made that are not yet commited
-   * git diff
+  * git diff
   
 To see status of uncommited parts
-    * git status
+  * git status
 
 To see log of commits
-    * git log
+  * git log
 
 View information about remote repository
-    * git remote -v
+  * git remote -v
   
 To set username email
   * git config --global user.name "MyGitName"
