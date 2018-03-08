@@ -74,3 +74,5 @@ To set username email
 To check name and email settings
   * git config --list
  
+To store credentials
+  * git config --global credential.helper store
