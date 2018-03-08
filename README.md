@@ -24,55 +24,55 @@ Tutorial Video Link https://www.youtube.com/watch?v=HVsySz-h9r4
 
 ## Using branches 
 1.  Creating a branch
-   *  git branch BranchName
+    *  git branch BranchName
    
 2.  Use a particular branch
-   *  git checkout BranchName
+    *  git checkout BranchName
   
 3.  Push branch to remote repository
-   *  git push -u origin BranchName
+    *  git push -u origin BranchName
 
 4. Then checkout to master. Remember to pull current version of master before pushing your code
 After checkout master and pull master.
 
 5.  Merge branch to master
-   * git merge BranchName
+    * git merge BranchName
 
 6. Finally push changes to master.
 
 7. Delete the unnesseary branch
-   * git branch -d BranchName  (removes it locally not from remote repo)
-   * git push origin --delete BranchName (removes branch from remote repo)
+    * git branch -d BranchName  (removes it locally not from remote repo)
+    * git push origin --delete BranchName (removes branch from remote repo)
    
 ## Git commands for quick reference
 Remove files from staging area
-  * git reset filename   (single file)
-  * git reset
+    * git reset filename   (single file)
+    * git reset
  
 To list all branches
-  * git branch -a
+    * git branch -a
 
 To list branches that have been merged
-  * git branch --merged
+    * git branch --merged
   
 To see changes made that are not yet commited
-  * git diff
+   * git diff
   
 To see status of uncommited parts
-  * git status
+    * git status
 
 To see log of commits
-  * git log
+    * git log
 
 View information about remote repository
-  * git remote -v
+    * git remote -v
   
 To set username email
- * git config --global user.name "MyGitName"
- * git config --global user.email "MyGitemail"
+  * git config --global user.name "MyGitName"
+  * git config --global user.email "MyGitemail"
  
 To check name and email settings
- * git config --list
+  * git config --list
  
 To store credentials 
- * git config --global credential.helper store
+  * git config --global credential.helper store
