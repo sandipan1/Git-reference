@@ -22,7 +22,7 @@ Tutorial Video Link https://www.youtube.com/watch?v=HVsySz-h9r4
 5. Push changes from staging area to master branch (or currently active branch)
    *  git push origin master 
 
-## Before using gitignore remove cache using git rm -r --cached .
+**Before using gitignore remove cache using git rm -r --cached .**
   
 ## Using branches 
 1.  Creating a branch
