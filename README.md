@@ -84,3 +84,6 @@ To store credentials
   * git fetch upstream
   * git checkout master
   * git rebase upstream/master or git merge upstream/master if you donot want to history of master branch
+## see difference between remote origin/master and local master
+ * git fetch 
+ * git diff origin/master master or git diff @{upstream}
