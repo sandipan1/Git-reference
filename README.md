@@ -78,3 +78,9 @@ To check name and email settings
  
 To store credentials
   * git config --global credential.helper store
+
+## Update Github Forked Repository
+  * git remote add upstream https://github.com/whoever/whatever.git
+  * git fetch upstream
+  * git checkout master
+  * git rebase upstream/master or git merge upstream/master if you donot want to history of master branch
